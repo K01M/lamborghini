@@ -183,3 +183,109 @@ body{
 .track__img{
     margin: auto auto 90px auto;
 }
+.evo{
+    margin-bottom: 100px;
+}
+.evo__black{
+    background: #363636;
+    color: #fff;
+
+    padding-top: 100px;
+}
+.evo__black-inner{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.evo__black-inner::before{
+    content: url(../images/decor1.svg);
+    position: absolute;
+    top: 210px;
+    left: -137px;
+}
+.evo__black-inner::after{
+    position: absolute;
+    content: url(../images/decor2.svg);
+    top: 296px;
+    left: -40px;
+}
+.evo__content{
+    display: flex;
+    justify-content: space-between;
+}
+.evo__title{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 300;
+}
+.evo__black-textbox{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-basis: 437px;
+}
+.evo__img{
+    margin: 200px auto 60px auto;
+    max-width: 725px;
+    position: relative;
+    z-index: 9;
+}
+.evo__list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.evo__white{
+    padding-top: 126px;
+    margin-bottom: 100px;
+}
+.evo__white-inner{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 100px;
+}
+.evo__white-inner::before{
+    position: absolute;
+    content: url(../images/evo2.png);
+    top: -155px;
+    left: 365px;
+}
+.evo__white-inner::after{
+    position: absolute;
+    content: url(../images/evo3.png);
+    top: -15px;
+    left: 600px;
+}
+.evo__white-textbox{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.evo__white-text-1{
+    max-width: 285px;
+}
+.evo__white-text-2{
+    max-width: 437px;
+}
+.evo__white-text-3{
+    max-width: 590px;
+}
+.video__block{
+    background-image: url(../images/video.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 265px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.video__link{
+    color: #fff;
+}
+.video__link img{
+    max-width: 50px;
+}
