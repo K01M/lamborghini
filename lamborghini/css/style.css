@@ -368,3 +368,55 @@ body{
 .blog__quote-img{
     width: 438px;
 }
+.footer{
+    background-color: #363636;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 79px;
+}
+.footer__title{
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+    margin-bottom: 87px;
+}
+.footer__content-contacts{
+    flex-basis: 211px;
+}
+.contacts__box{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer__content-subtitle{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.contacts__social{
+    display: flex;
+    gap: 20px;
+}
+.address__text{
+    font-size: 15px;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.footer__bottom-logo{
+    max-width: 50px;
+}
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#map {
+    height: 253px;
+}
